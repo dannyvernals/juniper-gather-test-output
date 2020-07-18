@@ -1,0 +1,6 @@
+## physical status commands to run on the router
+show chassis routing-engine
+show chassis hardware
+show chassis fpc
+show interfaces descriptions 
+show interfaces terse 

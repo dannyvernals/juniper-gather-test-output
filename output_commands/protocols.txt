@@ -1,0 +1,9 @@
+## Protocol status commands to run on the router
+show ospf interface
+show ospf neighbor 
+show bgp summary
+show vrrp brief
+show route summary
+show route 
+show krt queue
+show task replication

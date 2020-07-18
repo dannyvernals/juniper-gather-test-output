@@ -1,0 +1,4 @@
+# VC specific commands
+show virtual-chassis status
+show virtual-chassis protocol adjacency
+

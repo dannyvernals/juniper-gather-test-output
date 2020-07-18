@@ -1,0 +1,14 @@
+## Commands to gather router scaling information
+show system processes extensive
+show system resource-monitor summary
+show system license usage
+request pfe execute target fpc11 command "show qxchip 0 driver"
+request pfe execute target fpc11 command "show qxchip 1 driver"
+request pfe execute target fpc2 command "show xqchip 0 info"
+request pfe execute target fpc11 command "show jnh 0 pool usage"
+request pfe execute target fpc11 command ""show jnh 1 pool usage"
+request pfe execute target fpc2 command "show jnh 0 pool usage"
+request pfe execute target fpc2 command "show memory"
+request pfe execute target fpc11 command "show memory"
+request pfe execute target fpc11 command "show ifl summary"
+request pfe execute target fpc2 command "show ifl summary"
